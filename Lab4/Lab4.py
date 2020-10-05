@@ -1,6 +1,6 @@
 import http.client
 import urllib.parse
-import time
+
 key = '54CDA6FJF4RCJ92C'
 # Put your API Key here IIUQ8XBFN7K9WG2A
 #54CDA6FJF4RCJ92C
@@ -22,5 +22,5 @@ def lab4():
             conn.close()
         except:
             print("connection failed")
-if __name__ == "__main__":
-                lab4()
+
+lab4()
