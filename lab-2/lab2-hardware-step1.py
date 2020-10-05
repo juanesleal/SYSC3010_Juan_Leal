@@ -11,10 +11,10 @@ while True:
         for e in events:
                 print("starting loop")
         if e.direction ==  right_key and e.action == pressed:
-                sense.show_letter("J",text_colour=[0,100,100])
+                sense.show_letter("T",text_colour=[0,100,100])
                 print("Joystick right press detected")
         elif e.direction ==  left_key and e.action == pressed:
-                sense.show_letter("L",text_colour=[200,0,0])
+                sense.show_letter("A",text_colour=[200,0,0])
                 print("Joystick left press detected")
         else:
                 print("Nothing detected")
